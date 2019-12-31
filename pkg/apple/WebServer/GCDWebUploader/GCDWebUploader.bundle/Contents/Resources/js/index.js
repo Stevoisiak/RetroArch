@@ -248,7 +248,7 @@ $(document).ready(function() {
   $("#create-input").keypress(function(event) {
     if (event.keyCode == ENTER_KEYCODE) {
       $("#create-confirm").click();
-    };
+    }
   });
   
   $("#create-modal").on("shown.bs.modal", function(event) {
@@ -281,7 +281,7 @@ $(document).ready(function() {
   $("#move-input").keypress(function(event) {
     if (event.keyCode == ENTER_KEYCODE) {
       $("#move-confirm").click();
-    };
+    }
   });
   
   $("#move-modal").on("shown.bs.modal", function(event) {
